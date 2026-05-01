@@ -1,7 +1,3 @@
-console.log("USER:", process.env.ADMIN_USERNAME);
-console.log("PASS:", process.env.ADMIN_PASSWORD);
-console.log("HOST:", process.env.HOST);
-
 require('dotenv').config();
 const Sequelize = require('sequelize')
 const fs = require("fs")
